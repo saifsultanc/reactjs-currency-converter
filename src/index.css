@@ -1,14 +1,58 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: "NHaasGroteskTXPro-55Rg", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  color: #3f2a71;
+  background: linear-gradient(120deg, #5a37af, rgb(175, 153, 226));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+input {
+  border: none;
+  background: none;
+}
+
+.input-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-height: 190px;
+}
+
+.input {
+  outline: none;
+  font-size: 2.05rem;
+  color: #fff;
+  border-bottom: 1px solid #4a405f;
+  line-height: 1;
+  padding-bottom: 0.3rem;
+}
+.currency-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.converted {
+  color: white;
+  font-size: 1.618rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.617872224256rem;
+  font-weight: bold;
+  line-height: 2.617872224256rem;
+  margin-top: 1.618rem;
+  font-family: "NHaasGroteskDSPro-75Bd; Helvetica Neue; Helvetica; Arial; sans-serif";
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
 }
